@@ -8,7 +8,7 @@
         <a href="/shoes/{shoe.id}">
         <!--    <h1>Running Shoes</h1>-->
         <div class="shoe">
-            <div>
+            <div class="card-content-inner-inner">
                 <h2 class="shoeblockTitle">{shoe.name}</h2>
                 <img src={shoe.img} alt="vaporfly" height="300" width="300">
             </div>
@@ -46,13 +46,15 @@
     .shoe-card__inner{
         margin: 20px;
         display: flex;
-        justify-content: center;
+        align-items: center;
     }
 
     .card-content{
         max-width: fit-content;
         margin: 0 auto;
         display: flex;
+        justify-content: center;
+        text: center;
 
 
     }
@@ -63,7 +65,15 @@
         box-sizing: content-box;
         display: block;
     }
-    img{
-
+    .card-content-inner-inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
     }
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+
 </style>
