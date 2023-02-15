@@ -16,10 +16,26 @@
 
 
             <div class="card-content">
-                <p><span class="text">Price:</span> ${shoe.price}</p>
-                <p><span class="text">Best Use:</span> {shoe.bestUse}</p>
-                <p><span class="text">Surface:</span> {shoe.surface}</p>
-                <p><span class="text">Rating:</span> <span class="stars">{shoe.rating}</span></p>
+                <div>
+                    <p><span class="text2">Price:</span> </p>
+                    <p class="info"> ${shoe.price}</p>
+                </div>
+
+                <div>
+                    <p><span class="text2">Best Use:</span> </p>
+                    <p class="info"> {shoe.bestUse}</p>
+                </div>
+
+                <div>
+                    <p><span class="text2">Surface:</span> </p>
+                    <p class="info">   {shoe.surface}</p>
+                </div>
+
+                <div>
+                    <p><span class="text2">Rating:</span> </p>
+                    <p class="info">   <span class="stars">{shoe.rating}</span></p>
+                </div>
+
             </div>
         </div>
         </a>
@@ -41,6 +57,7 @@
     a{
         /*color: #060c21;*/
         text-decoration: none;
+        width: 100%;
     }
 
     .shoe-card__inner{
@@ -50,20 +67,23 @@
     }
 
     .card-content{
-        max-width: fit-content;
-        margin: 0 auto;
+        /*max-width: fit-content;*/
         display: flex;
-        justify-content: center;
-        text: center;
+        justify-content: space-evenly;
+        width: 100%;
+
+
+
 
 
     }
     .line{
         height: 0;
         width: 100%;
-        border-top: 6px solid #060c21;
+        border-top: 4px solid #060c21;
         box-sizing: content-box;
         display: block;
+        padding-bottom: 1rem;
     }
     .card-content-inner-inner{
         display: flex;
@@ -74,6 +94,15 @@
     img{
         width: 100%;
         object-fit: cover;
+    }
+    .text2{
+        font-weight: bold;
+        font-size: .8rem;
+    }
+    .info{
+        font-size: 1.2rem;
+        margin: 0;
+
     }
 
 </style>

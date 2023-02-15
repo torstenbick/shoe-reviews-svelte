@@ -20,6 +20,26 @@
         rating: "★★★★★",
         img: "https://cdn.shopify.com/s/files/1/1804/7057/products/DJ5255-100-PHSRH000-2000_2000x2000.png?v=1671051158",
         id: 'nike-zoomx-dragonfly',
-    }
+    },
+     {
+         name: 'On Cloudmonster',
+         price: 169.99,
+         bestUse: "Training",
+         surface: "Road",
+         rating: "★★★★",
+         img: "https://images.ctfassets.net/hnk2vsx53n6l/2Az75p1g0Oh5Am8B1n1mJQ/96d8dc8578cc3ed817e865505c47e070/9e1bbeb325c15e3cc3a21ed721cb84e80965efb9.png?w=800&h=800&fm=png&f=center&fit=fill&q=80",
+         id: 'on-cloudmonster',
+     },
+     {
+         name: 'Nike ZoomX Streakfly',
+         price: 160,
+         bestUse: "Distance racing",
+         surface: "Road",
+         rating: "★★★★",
+         img: "https://static.nike.com/a/images/t_default/24d5a5ec-db76-4512-99a8-36231b9a9b41/streakfly-road-racing-shoes-V17qZm.png",
+         // img: "https://static.nike.com/a/images/t_default/01e6bdc4-645d-4626-84c6-c6dd96dfc921/streakfly-road-racing-shoes-wWhMKs.png",
+         id: 'nike-zoomx-streakfly',
+     }
+
 ]
  export {shoes}
