@@ -4,7 +4,7 @@ import ShoeCard from "./ShoeCard.svelte";
 </script>
 
 <section class="shoes">
-    <h1>Shoes</h1>
+
     <div class="product-container">
     {#each shoes as shoe}
     <ShoeCard shoe={shoe}/>
@@ -19,6 +19,7 @@ import ShoeCard from "./ShoeCard.svelte";
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: 2rem;
 }
 
 

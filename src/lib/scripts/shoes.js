@@ -10,6 +10,15 @@
         surface: "Road",
         rating: "★★★★★",
         img: vaporfly,
+        weight: 196,
+        drop: 7.7,
+        heelStackHeight: 38.6,
+        forefootStackHeight: 30.9,
+        fome: "PEBA",
+        brand: "Nike",
+        brandlogo: "https://toppng.com/uploads/preview/nike-logo-115309645398lsn6qzriq.png",
+        link: "https://www.runningwarehouse.com/Mens_Nike_Vaporfly/catpage-MVAPORFLY.html",
+        review: "test",
         id: 'nike-zoomx-vaporfly-next-2',
     },
     {
@@ -39,6 +48,16 @@
          img: "https://static.nike.com/a/images/t_default/24d5a5ec-db76-4512-99a8-36231b9a9b41/streakfly-road-racing-shoes-V17qZm.png",
          // img: "https://static.nike.com/a/images/t_default/01e6bdc4-645d-4626-84c6-c6dd96dfc921/streakfly-road-racing-shoes-wWhMKs.png",
          id: 'nike-zoomx-streakfly',
+     },
+     {
+         name: 'Nike Air Zoom Victory',
+         price: 180,
+         bestUse: "Distance racing",
+         surface: "Track",
+         rating: "★★★★★",
+         img: "https://cdn.shopify.com/s/files/1/0596/8776/4165/products/CD4385-700-PHSRH000-2000_1024x1024.png?v=1666155142",
+
+         id: 'nike-air-zoom-victory',
      }
 
 ]

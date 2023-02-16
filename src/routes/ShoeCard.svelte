@@ -10,7 +10,7 @@
         <div class="shoe">
             <div class="card-content-inner-inner">
                 <h2 class="shoeblockTitle">{shoe.name}</h2>
-                <img src={shoe.img} alt="vaporfly" height="300" width="300">
+                <img src={shoe.img} alt={shoe.name} height="300" width="300">
             </div>
             <span class="line" />
 
