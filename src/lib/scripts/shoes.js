@@ -14,7 +14,7 @@
         drop: 7.7,
         heelStackHeight: 38.6,
         forefootStackHeight: 30.9,
-        fome: "PEBA",
+        foam: "PEBA",
         brand: "Nike",
         brandlogo: "https://toppng.com/uploads/preview/nike-logo-115309645398lsn6qzriq.png",
         link: "https://www.runningwarehouse.com/Mens_Nike_Vaporfly/catpage-MVAPORFLY.html",
