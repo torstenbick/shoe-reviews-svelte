@@ -38,6 +38,8 @@
             <p>{data.props.shoe.heelStackHeight}</p>
             <p><span class="text"> Forefoot Stack Height:</span> </p>
             <p>{data.props.shoe.forefootStackHeight}</p>
+            <p><span class="text"> foam:</span> </p>
+            <p>{data.props.shoe.foam}</p>
             </div>
                 <div class="shoe-rewiew">
                     <p><span class="text">Review:</span> </p>
