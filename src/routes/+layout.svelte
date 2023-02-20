@@ -10,6 +10,9 @@
    <main>
        <slot />
    </main>
+   <footer>
+       <p>© 2021 Torsten's Running Reviews</p>
+    </footer>
 </div>
 
 <style>

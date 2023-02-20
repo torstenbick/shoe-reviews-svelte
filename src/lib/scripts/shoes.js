@@ -19,7 +19,7 @@
         brandLogo: "https://toppng.com/uploads/preview/nike-logo-115309645398lsn6qzriq.png",
         link: "https://www.runningwarehouse.com/Mens_Nike_Vaporfly/catpage-MVAPORFLY.html",
         brandLink: "https://www.nike.com/w?q=vaporfly&vst=vaporfly",
-        review: "test",
+        review: "i need a long mesianeg to i am going to write somthing long so how do you do and how do you say hat this i going to need to be longer i need a long mesianeg to i am going to write somthing long so how do you do and how do you say hat this i going to need to be longer i need a long mesianeg to i am going to write somthing long so how do you do and how do you say hat this i going to need to be longer i need a long mesianeg to i am going to write somthing long so how do you do and how do you say hat this i going to need to be longer ",
         id: 'nike-zoomx-vaporfly-next-2',
     },
     {

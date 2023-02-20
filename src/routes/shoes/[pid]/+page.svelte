@@ -6,7 +6,7 @@
     };
 </script>
 
-<section>
+<section class="content">
     {#if data.props.shoe}
         <div class="shoe-info-card">
             <div class="shoe-display">
@@ -95,6 +95,17 @@
 
 <style>
 
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: center;
+        margin-inline: 8.5rem;
+        margin-block: 1rem;
+    }
+
     .spec-section{
         display: flex;
         flex-direction: column;
@@ -129,11 +140,13 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 100%;
+    width: 80%;
     padding: 1rem;
     margin: 1rem;
     background-color:  lightslategray;
     border-radius: 10px;
     border: #060c21 6px solid;
+    min-width: fit-content;
 
 }
 .shoe-info{
@@ -144,6 +157,7 @@
     
 }
 .shoe-specs{
+    
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
@@ -220,6 +234,7 @@
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 50%;
 
 }
 button{
