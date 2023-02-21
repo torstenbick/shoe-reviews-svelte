@@ -10,7 +10,7 @@ import ShoeCard from "./ShoeCard.svelte";
     <ShoeCard shoe={shoe}/>
     {/each}
     </div>
-aaaa
+
 </section>
 
 <style>

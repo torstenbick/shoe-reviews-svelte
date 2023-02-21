@@ -35,8 +35,8 @@
             <a class="hover" href={data.props.shoe.brandLink}>
               <img
                 class="img-hov"
-                src="https://static.nike.com/a/images/f_jpg,q_auto:eco/61b4738b-e1e1-4786-8f6c-26aa0008e80b/swoosh-logo-black.png"
-                alt="nike"
+                src= {data.props.shoe.brandLogo}
+                alt= {data.props.shoe.brand}
                 width="100"
                 height="100"
               />
@@ -86,8 +86,8 @@
             <p class="spec-info">{data.props.shoe.forefootStackHeight}mm</p>
           </div>
           <div class="spec-section">
-            <p><span class="text"> MidsolFoam:</span></p>
-            <p class="spec-info">{data.props.shoe.foam}</p>
+            <p><span class="text"> Shoe Type:</span></p>
+            <p class="spec-info">{data.props.shoe.arch}</p>
           </div>
         </div>
         <div class="shoe-rewiew">
