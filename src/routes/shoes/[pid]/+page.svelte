@@ -1,5 +1,5 @@
 <script>
-  import HomeIcon from "$lib/images/HomeIcon.png";
+  // import HomeIcon from "$lib/images/HomeIcon.png";
   export let data = {
     props: {
       shoe: null,
@@ -8,11 +8,11 @@
 </script>
 
 <section class="content">
-  <div class="home-button">
+  <!-- <div class="home-button">
     <a class="hover" href="/">
       <img class="img-hov" src={HomeIcon} alt="back" width="50" height="50" />
     </a>
-  </div>
+  </div> -->
   {#if data.props.shoe}
     <div class="shoe-info-card">
       <div class="shoe-display">
@@ -109,11 +109,11 @@
 </section>
 
 <style>
-  .home-button {
+  /* .home-button {
     background-color: lightslategray;
     border-radius: 50%;
     cursor: pointer;
-  }
+  } */
 
   .content {
     display: flex;
@@ -257,7 +257,7 @@
   }
 
   .hover:hover .img-hov {
-    opacity: 0.2;
+    opacity: 0.5;
   }
   .stars {
   color: gold;

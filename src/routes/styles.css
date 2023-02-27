@@ -41,7 +41,7 @@ a:hover {
 }
 .nav{
 display: flex;
-justify-content: center;
+justify-content: left;
 align-items: center;
 padding: none;
 
