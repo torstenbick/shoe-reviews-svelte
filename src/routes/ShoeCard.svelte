@@ -44,7 +44,7 @@
     background-color: lightslategray;
     width: 500px;
     border-radius: 10px;
-    border: #060c21 6px solid;
+    /* border: #060c21 6px solid; */
     /*color: #060c21;*/
     color: white;
   }
@@ -93,4 +93,16 @@
     font-size: 1.2rem;
     margin: 0;
   }
+  .stars {
+  color: gold;
+}
+
+.line {
+  height: 0;
+  width: 100%;
+  border-top: 4px solid #060c21;
+  box-sizing: content-box;
+  display: block;
+  padding-bottom: 1rem;
+}
 </style>

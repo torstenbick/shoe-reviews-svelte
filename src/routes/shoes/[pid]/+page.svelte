@@ -8,6 +8,11 @@
 </script>
 
 <section class="content">
+  <div class="home-button">
+    <a class="hover" href="/">
+      <img class="img-hov" src={HomeIcon} alt="back" width="50" height="50" />
+    </a>
+  </div>
   {#if data.props.shoe}
     <div class="shoe-info-card">
       <div class="shoe-display">
@@ -100,16 +105,12 @@
     <p>Sorry, no shoe found</p>
   {/if}
 
-  <div class="home-button">
-    <a class="hover" href="/">
-      <img class="img-hov" src={HomeIcon} alt="back" width="50" height="50" />
-    </a>
-  </div>
+  
 </section>
 
 <style>
   .home-button {
-    background-color: #060c21;
+    background-color: lightslategray;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -162,7 +163,7 @@
     margin: 1rem;
     background-color: lightslategray;
     border-radius: 10px;
-    border: #060c21 6px solid;
+    /* border: #060c21 6px solid; */
     min-width: fit-content;
   }
   .shoe-info {
@@ -258,4 +259,7 @@
   .hover:hover .img-hov {
     opacity: 0.2;
   }
+  .stars {
+  color: gold;
+}
 </style>
