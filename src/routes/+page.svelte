@@ -1,6 +1,18 @@
 <script>
 import {shoes} from "$lib/scripts/shoes.js";
 import ShoeCard from "./ShoeCard.svelte";
+
+let filteredShoes = shoes;
+
+const filterSelection = (c) => {
+    let x, i;
+    x = document.getElementsByClassName("product-container");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+}
 </script>
 
 <div class="filter-shoes">
