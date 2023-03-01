@@ -18,7 +18,7 @@ const filterSelection = (c) => {
 <div class="filter-shoes">
     <div id="myBtnContainer">
         <button class="btn active" on:click={() => filterSelection('all')}> Show all</button>
-        <button class="btn bg-blue-600" on:click={() => filterSelection('trail')}> Trail</button>
+        <button class="btn" on:click={() => filterSelection('trail')}> Trail</button>
         <button class="btn" on:click={() => filterSelection('road')}> Road</button>
         <button class="btn" on:click={() => filterSelection('track')}> Track</button>
       </div>
@@ -47,7 +47,7 @@ const filterSelection = (c) => {
     border: none;
     outline: none;
     padding: 12px 16px;
-    /*background-color: lightslategray;*/
+    background-color: lightslategray;
     cursor: pointer;
 }
 .filter-shoes{

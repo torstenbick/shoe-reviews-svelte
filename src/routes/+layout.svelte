@@ -2,7 +2,7 @@
     import './styles.css'
 </script>
 
-<div>
+<div class="page">
     <header>
         <div class="header">
             <div class="logo">
@@ -29,6 +29,13 @@
 </div>
 
 <style>
-
+main{
+    flex-grow: 1;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 </style>

@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 :root {
   --gray-blue: #243354;
   --black-blue: #060c21;
@@ -7,6 +13,7 @@ body,
 html {
   background: var(--gray-blue);
   color: white;
+  min-height: 100vh;
   
 }
 header {
