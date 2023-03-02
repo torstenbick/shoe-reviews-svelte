@@ -1,61 +1,33 @@
 <script>
-import {shoes} from "$lib/scripts/shoes.js";
-import ShoeCard from "$lib/components/ShoeCard.svelte";
+  import { shoes } from "$lib/scripts/shoes.js";
+  import ShoeCard from "$lib/components/ShoeCard.svelte";
+  import Controls from "../lib/components/Controls.svelte";
 
-let filteredShoes = shoes;
+  let filteredShoes = shoes;
 
-const filterSelection = (c) => {
-    if(c === 'all') {
-        filteredShoes = shoes;
-        return;
-    }
-    console.log(c);
-    filteredShoes = shoes.filter((shoe) => shoe.surface.toLowerCase().includes(c.toLowerCase()));
-}
-
+  const setFilteredShoes = (newShoes) => {
+    filteredShoes = newShoes;
+  };
 </script>
 
-<div class="filter-shoes">
-    <div id="myBtnContainer">
-        <button class="btn active" on:click={() => filterSelection('all')}> Show all</button>
-        <button class="btn bg-blue-600" on:click={() => filterSelection('trail')}> Trail</button>
-        <button class="btn" on:click={() => filterSelection('road')}> Road</button>
-        <button class="btn" on:click={() => filterSelection('track')}> Track</button>
-      </div>
-</div>
-
+<Controls {filteredShoes} {setFilteredShoes} />
 <section class="shoes">
-    <div class="product-container">
+  <div class="product-container">
     {#each filteredShoes as shoe}
-    <ShoeCard shoe={shoe}/>
+      <ShoeCard {shoe} />
     {/each}
-    </div>
-
+  </div>
 </section>
 
 <style>
-.product-container{
+  .product-container {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
+  }
 
-.btn{
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    /*background-color: lightslategray;*/
-    cursor: pointer;
-}
-.filter-shoes{
-    display: flex;
-    justify-content: center;
-    padding-top: 2rem;
-}
+
 </style>
-
-
-
