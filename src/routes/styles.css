@@ -16,16 +16,7 @@ html {
   min-height: 100vh;
   
 }
-header {
-  background-color: navy;
-  color: white;
-  text-align: left;
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  text-shadow: 2px 2px 2px lightslategray;
-  padding: 1rem;
-}
+
 header,
 * {
   margin: 0;

@@ -20,6 +20,7 @@
 </section>
 
 <style>
+
 .product-container{
     display: flex;
     gap: 20px;

@@ -11,7 +11,7 @@
             return
         }
         const filteredShoes = shoes.filter((shoe) => {
-            return shoe.bestUse === filter;
+            return shoe.surface === filter;
         });
         setFilteredShoes(filteredShoes);
     };
@@ -20,12 +20,12 @@
 
 <section class="controls">
     <div class="controls__inner">
-        <label for="bestUse">Best Use</label>
-        <select name="surface" id="bestUse" class="text-black" on:change={filter}>
+        <label for="surface">Filter by Surface</label>
+        <select name="surface" id="surface" class="text-black" on:change={filter}>
             <option value="all">All</option>
             <option value="Road">Road</option>
             <option value="Trail">Trail</option>
-            <option value="track">Track</option>
+            <option value="Track">Track</option>
 <!--            <option value="soccer">Soccer</option>-->
 <!--            <option value="hiking">Hiking</option>-->
         </select>
@@ -33,3 +33,31 @@
 
     </section>
 
+<style>
+    .controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 1rem;
+        background-color: #243354;
+    }
+    .controls__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+    }
+    .controls__inner label {
+        margin-right: 1rem;
+    }
+    .controls__inner select {
+        padding: 0.5rem;
+        border: 1px solid slategray;
+        border-radius: 4px;
+        background: slategray;
+        color: white;
+
+    }
+</style>
