@@ -21,13 +21,13 @@
 <section class="controls">
     <div class="controls__inner">
         <label for="bestUse">Best Use</label>
-        <select name="bestUse" id="bestUse" class="text-black" on:change={filter}>
+        <select name="surface" id="bestUse" class="text-black" on:change={filter}>
             <option value="all">All</option>
-            <option value="running">Running</option>
-            <option value="basketball">Basketball</option>
-            <option value="tennis">Tennis</option>
-            <option value="soccer">Soccer</option>
-            <option value="hiking">Hiking</option>
+            <option value="Road">Road</option>
+            <option value="Trail">Trail</option>
+            <option value="track">Track</option>
+<!--            <option value="soccer">Soccer</option>-->
+<!--            <option value="hiking">Hiking</option>-->
         </select>
     </div>  
 

@@ -10,8 +10,7 @@
                 <h1 class="title">Running Reviews</h1>
             </div>
         
-            <div class="nav">
-                <a class="nav-button" href="/">Home</a>
+            <div class="nav">                <a class="nav-button" href="/">Home</a>
                 <a class="nav-button" href="/shoes">Shoes</a>
                 <a class="nav-button" href="/gear">Gear</a>
                 <a class="nav-button" href="/other">Other</a>
