@@ -11,7 +11,7 @@
 
 <section class="home">
 <div class="maintitle">
-    <img class="title-img" src="https://images.theconversation.com/files/387060/original/file-20210301-15-1vxa1so.jpg?ixlib=rb-1.1.0&rect=0%2C208%2C1884%2C941&q=45&auto=format&w=1356&h=668&fit=crop" alt="title-image">
+    <!-- <img class="title-img" src="https://images.theconversation.com/files/387060/original/file-20210301-15-1vxa1so.jpg?ixlib=rb-1.1.0&rect=0%2C208%2C1884%2C941&q=45&auto=format&w=1356&h=668&fit=crop" alt="title-image"> -->
 </div>
 </section>
 
@@ -20,14 +20,6 @@
         opacity: .8;
         width: 100
     }
-  .product-container {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 
 
 </style>
